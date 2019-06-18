@@ -1,0 +1,60 @@
+/*
+    Style sheet for the RoboCar's web interface
+ */
+* {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* There's only one h1 tag */
+h1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 72px;
+}
+
+/* There's only one form */
+form {
+    display: none;
+}
+
+/* There's only one section */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+/* For the paragraph inside the #commands div*/
+#commands p {
+    margin-top: -20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#modes {
+    display:flex;
+    justify-content: space-around;
+}
+
+/* All the div tags inside the #modes div */
+#modes div {
+    padding: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+}
+
+/* All the div tags when a mouse is over them */
+#modes div:hover {
+    color: black;
+    background-color: white;
+}
